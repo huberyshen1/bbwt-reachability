@@ -1,5 +1,7 @@
 # Singleton Ternary Families and Permutation Groups for BBWT Reachability
 
+**Erjun Shen** · [huberyshen@gmail.com](mailto:huberyshen@gmail.com)
+
 Research draft
 
 | Manuscript | PDF | LaTeX | Markdown |

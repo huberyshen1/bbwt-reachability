@@ -1,5 +1,7 @@
 # Singleton Ternary Families and Permutation Groups for BBWT Reachability
 
+**Erjun Shen** · [huberyshen@gmail.com](mailto:huberyshen@gmail.com)
+
 **Abstract.**
 Badkobeh et al. conjectured that the bijective Burrows–Wheeler transform and cyclic rotation generate a transitive action on every fixed Parikh class. We record a direct corollary of their descent lemma for vectors $(e_1,1,\dots,1,e_\sigma)$, and give additional constructive descent arguments for the ternary families $(1,e_b,e_c)$ and $(e_a,e_b,1)$. Together, these cover every positive ternary vector with a singleton entry. We also prove a dihedral position quotient for $(1,k,1)$ and an equivariant projection that merges the two smallest singleton symbols. Reproducible finite computations classify all $113$ ternary cases of degree at most $500$ and verify a two-step descent property for obstruction necklaces of length at most $13$. We state separate sufficient reductions for general-alphabet reachability and for the remaining ternary interior cases.
 
