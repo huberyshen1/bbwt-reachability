@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "b3_exact_q_1_to_20": 3800,
+    "c_exact_identity_1_to_10": 1000,
+    "sentinel_and_inner_u_length_le_8_e_le_4": 2040
+  },
+  "failures": [],
+  "script_sha256": "58e0f819a590f4c5972c3b2d6db067d476c8f2ef73bee0cd795da95636013494"
+}

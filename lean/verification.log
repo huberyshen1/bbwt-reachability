@@ -1,0 +1,23 @@
+$ lean --version
+Lean (version 4.19.0, arm64-apple-darwin23.6.0, commit 6caaee842e94, Release)
+
+$ lean -DwarningAsError=true BBWT.lean
+'BBWT.inverseRecipe_unique' depends on axioms: [propext, Quot.sound]
+'BBWT.maximal_singleton_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.transfer_decreases' depends on axioms: [propext]
+'BBWT.maximal_singleton_descent_functions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.inverse_reflects_unique_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.forward_reflects_unique_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.rotate_shifts_unique_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.singleton_position_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.dihedral_position_relations' depends on axioms: [propext, Quot.sound]
+'BBWT.b3_initial_trace' depends on axioms: [propext, Quot.sound]
+'BBWT.b3_c_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.b3_nonclosing_exit_is_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BBWT.b3_positive_leader_is_b' depends on axioms: [propext, Quot.sound]
+'BBWT.smallest_swap_merges_cycles' depends on axioms: [propext, Quot.sound]
+'BBWT.smallest_swap_splits_cycle' depends on axioms: [propext, Quot.sound]
+
+Exit status: 0
+Source check: no sorry, admit, native_decide, unsafe declarations, or declared axioms.
+Axiom audit: all 15 reports list only the standard Lean axioms shown above.

@@ -1,0 +1,65 @@
+{
+  "max_S_threshold": 200000,
+  "generators": [
+    "BBWT (forward only)",
+    "rho (left shift by 1, forward only)"
+  ],
+  "python_cross_checked_vectors_leq_2000": 391,
+  "total_counterexamples": 0,
+  "by_sigma": {
+    "3": {
+      "parikh_vectors": 2377,
+      "total_strings": 146010252,
+      "min_n": 3,
+      "max_n": 447,
+      "max_size": 199362,
+      "counterexamples": [],
+      "max_depth_leq_10000": {
+        "depth": 102,
+        "p": [
+          1,
+          98,
+          1
+        ],
+        "size": 9900
+      }
+    },
+    "4": {
+      "parikh_vectors": 1106,
+      "total_strings": 68419344,
+      "min_n": 4,
+      "max_n": 59,
+      "max_size": 195054,
+      "counterexamples": [],
+      "max_depth_leq_10000": {
+        "depth": 21,
+        "p": [
+          1,
+          1,
+          18,
+          1
+        ],
+        "size": 7980
+      }
+    },
+    "5": {
+      "parikh_vectors": 612,
+      "total_strings": 44113680,
+      "min_n": 5,
+      "max_n": 22,
+      "max_size": 184800,
+      "counterexamples": [],
+      "max_depth_leq_10000": {
+        "depth": 17,
+        "p": [
+          1,
+          1,
+          7,
+          1,
+          1
+        ],
+        "size": 7920
+      }
+    }
+  }
+}
